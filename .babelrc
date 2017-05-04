@@ -1,0 +1,27 @@
+{
+  "sourceMaps": true,
+  "sourceMap": true,
+  "presets":
+  [
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": [
+    "jsx",
+    "transform-class-properties",
+    "syntax-flow",
+    "transform-flow-strip-types",
+    "transform-object-rest-spread",
+    "add-module-exports",
+    ["module-resolver", {
+      "extensions": [".js", ".jsx"],
+      "alias": {
+        "weego-config": "./dist/config/src/index.js",
+        "weego-schema": "./dist/schema/src/index.js"
+      }
+    }]
+  ]
+}

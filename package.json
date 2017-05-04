@@ -1,0 +1,45 @@
+{
+  "name": "flipts",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "change js to ts, experimental",
+  "bin": "bin.js",
+  "keywords": [
+    "typescript"
+  ],
+  "dependencies": {
+    "gulp": "*",
+    "gulp-ext-replace": "*",
+    "execa": "^0.6.3",
+    "flipchain": "*",
+    "flipfile": "*",
+    "fliplog": "*",
+    "lebab": "^2.7.2",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-module-resolver": "^2.7.0",
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.4.0"
+  },
+  "license": "MIT",
+  "author": "James <aretecode@gmail.com>",
+  "homepage": "https://github.com/fliphub/fliphub#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fliphub/fliphub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fliphub/fliphub/issues"
+  },
+  "devDependencies": {
+    "babel-plugin-jsx": "^1.2.0",
+    "babel-plugin-transform-jsx": "^2.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.2"
+  }
+}
